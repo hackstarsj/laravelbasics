@@ -10,3 +10,9 @@
 <li>Routing With Post Method</li>
 <li>Route Linked to Controller</li>
 </ul>
+<h4>Added Controller</h4>
+<ul>
+<li>Simple Controller</li>
+<li>How to Create Controller</li>
+<li>How to Create Methods in Controller</li>
+</ul>
