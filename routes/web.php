@@ -54,3 +54,7 @@ Route::get("/page3","App\Http\Controllers\PageController@page3");
 Route::get("/page4",[PageController::class,'page4']);
 
 
+Route::get("","App\Http\Controllers\TemplateController@home");
+Route::get("/userhome","App\Http\Controllers\TemplateController@userhome")->name("userhome");
+Route::get("/userlogin","App\Http\Controllers\TemplateController@userlogin");
+Route::post("/userloginsave","App\Http\Controllers\TemplateController@userloginsave")->name('userloginprocess');
