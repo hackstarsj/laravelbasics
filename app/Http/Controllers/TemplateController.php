@@ -38,4 +38,8 @@ class TemplateController extends Controller
        //->route is used to redirect any route to user
        return redirect()->route("userhome");
     }
+
+    public function testMiddlware(){
+        return "Simple Middlware With Controller";
+    }
 }

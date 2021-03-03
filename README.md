@@ -37,3 +37,13 @@
 <li>Redirect User to External Page</li>
 <li>Redirect User to Route Page</li>
 </ul>
+<h4>Added Middleware Example</h4>
+<ul>
+<li>How to Create Middleware in Laravel </li>
+<li>How to Link Middleware With Route </li>
+<li>How to Link Middleware With Route and Controller Method</li>
+<li>How to Register Middleware</li>
+<li>How to Redirect User from Middleware</li>
+<li>How to Return Response from Middleware</li>
+<li>Middleware With Group of Route Example</li>
+</ul>
