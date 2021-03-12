@@ -29,7 +29,16 @@
 <ul>
 <li>How to Access Form Data Using Request</li>
 <li>Request Input Method</li>
-<li>Request Post Method</li>
+<li>Request GET URL,FULL URL and PATH</li>
+<li>How to Get Param from URL Using Request</li>
+<li>How to Get Header from Request Object</li>
+<li>How to Get IP Address from Request</li>
+<li>How to Access HTML Array Input Using Request</li>
+<li>How to Upload File In Laravel</li>
+<li>Access File Object from Request</li>
+<li>Check Request METHOD</li>
+<li>GET All FORM Input from Request Object</li>
+
 </ul>
 <h4>Added Redirect</h4>
 <ul>
