@@ -103,3 +103,10 @@ Route::get('/testMiddlewareWithController',"App\Http\Controllers\TemplateControl
 Route::get("/testMiddlewareWithName",function(){
     return "Simple Middleware With Name Middleware Example";
 })->middleware("MyMiddleWare");
+
+//Route For Our Complete Request Object Example
+Route::get('/requestExample','App\Http\Controllers\RequestExampleController@requestExample');
+Route::get('/requestExampleForm','App\Http\Controllers\RequestExampleController@requestExampleForm')->name("requestExampleForm");
+Route::post('/requestExampleForm','App\Http\Controllers\RequestExampleController@requestExampleFormSave');
+Route::any('/requestAny','App\Http\Controllers\RequestExampleController@requestAny');
+Route::any('/requestExampleFormSave2','App\Http\Controllers\RequestExampleController@requestExampleFormSave2');
