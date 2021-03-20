@@ -110,3 +110,13 @@ Route::get('/requestExampleForm','App\Http\Controllers\RequestExampleController@
 Route::post('/requestExampleForm','App\Http\Controllers\RequestExampleController@requestExampleFormSave');
 Route::any('/requestAny','App\Http\Controllers\RequestExampleController@requestAny');
 Route::any('/requestExampleFormSave2','App\Http\Controllers\RequestExampleController@requestExampleFormSave2');
+
+Route::get('/simpleTextResponse','App\Http\Controllers\ResponseExampleController@simpleTextResponse');
+Route::get('/jsonResponseExample','App\Http\Controllers\ResponseExampleController@jsonResponseExample')->name('jsonRouteExample');
+Route::get('/responseWithHeadersAndStatus','App\Http\Controllers\ResponseExampleController@responseWithHeadersAndStatus');
+Route::get('/redirectExampleWithFirstWay','App\Http\Controllers\ResponseExampleController@redirectExampleWithFirstWay');
+Route::get('/redirectExampleWithSecondWay','App\Http\Controllers\ResponseExampleController@redirectExampleWithSecondWay');
+Route::get('/redirectExampleWithThirdWay','App\Http\Controllers\ResponseExampleController@redirectExampleWithThirdWay');
+Route::get('/redirectExampleExternalURl','App\Http\Controllers\ResponseExampleController@redirectExampleExternalURl');
+Route::get('/responseFormExample','App\Http\Controllers\ResponseExampleController@responseFormExample');
+Route::post('/responseFormExample','App\Http\Controllers\ResponseExampleController@responseFormExamplePost');

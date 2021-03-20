@@ -1,5 +1,7 @@
 <h2>Laravel Complete Tutorial</h2>
 
+<a href="https://www.youtube.com/playlist?list=PLb-NlfexLTk_uS4DhpjgRhfQjMBncZKbZ">Follow Tutorial on Youtube : https://www.youtube.com/playlist?list=PLb-NlfexLTk_uS4DhpjgRhfQjMBncZKbZ</a>
+
 <h4>Added Routing</h4>
 <ul>
 <li>Simple Routing</li>
@@ -55,4 +57,17 @@
 <li>How to Redirect User from Middleware</li>
 <li>How to Return Response from Middleware</li>
 <li>Middleware With Group of Route Example</li>
+</ul>
+<h4>Added Response Example</h4>
+<ul>
+<li>Added Simple Text Response</li>
+<li>Added Simple JSON Response</li>
+<li>Added Response With Status and Headers</li>
+<li>Added Response With Template Blade</li>
+<li>Added Redirect Example</li>
+<li>Added Redirect Example With Route</li>
+<li>Added Redirect Example With External Website</li>
+<li>Added Redirect Example With Message</li>
+<li>Added Redirect Example With Session</li>
+<li>Added Redirect Example With Old Inputs</li>
 </ul>
